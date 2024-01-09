@@ -1,0 +1,11 @@
+version: "3"
+
+services:
+  tensorflow:
+    container_name: tensorflow
+    image: lastest_tensorflow
+    volumes:
+      - ./workfile:/workfile
+    ports:
+      - "6688:6688"
+
